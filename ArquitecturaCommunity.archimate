@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Community" id="e87126e7" version="3.1.1">
+  <folder name="Negocio" id="2c19695f" type="business">
+    <folder name="Información" id="b75a940d"/>
+    <folder name="Estructura" id="fc432e1c"/>
+    <folder name="Comportamiento" id="c2cdd931"/>
+  </folder>
+  <folder name="Aplicación" id="05c823c1" type="application">
+    <folder name="Comportamiento" id="47f3256b"/>
+    <folder name="Información" id="276ec014"/>
+    <folder name="Estructura" id="db80e966"/>
+  </folder>
+  <folder name="Tecnología" id="e809b323" type="technology">
+    <folder name="Comportamiento" id="7947d467"/>
+    <folder name="Información" id="393181fc"/>
+    <folder name="Estructura" id="215b238d"/>
+  </folder>
+  <folder name="Motivación" id="73826f6a" type="motivation"/>
+  <folder name="Implementación y Migración" id="9f96f97c" type="implementation_migration"/>
+  <folder name="Conectores" id="b1f62aa9" type="connectors"/>
+  <folder name="Relaciones" id="ee451d13" type="relations"/>
+  <folder name="Vistas" id="59b09918" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="5f78b078" name="__Vistas">
+      <child xsi:type="archimate:DiagramModelReference" id="23d2818e" textAlignment="2" model="8a6d8951">
+        <bounds x="72" y="24" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="18dfe5b3" textAlignment="2" model="6c573bb1">
+        <bounds x="276" y="24" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="80de9ad3" textAlignment="2" model="dd16db14">
+        <bounds x="516" y="24" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="36ddb1fb" name="Dominio: Producto">
+      <child xsi:type="archimate:Note" id="7105d791" name="Note" textAlignment="1">
+        <bounds x="24" y="12" width="169" height="97"/>
+        <content>Dominio: Producto
+La intención es conectar la Informacióm a los aspectos de Comportamiento y la capa de Negocio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="69aa2bf0" name="Dominio: Información">
+      <child xsi:type="archimate:Note" id="f8abfd71" name="Note" textAlignment="1">
+        <bounds x="24" y="12" width="169" height="61"/>
+        <content>Dominio: Información
+La intención es mostrar los aspectos de Información de la capa de Negocio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="fe16ddc3" name="Dominio: Proceso">
+      <child xsi:type="archimate:Note" id="bf10bbeb" name="Note" textAlignment="1">
+        <bounds x="44" y="32" width="169" height="97"/>
+        <content>Dominio: Proceso
+Intention is to hold Business layer, Behaviour aspect, touching on Structure</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="7e78233d" name="Dominio: Organización">
+      <child xsi:type="archimate:Note" id="c9b4a707" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="61"/>
+        <content>Dominio: Organization
+Intention is to hold Business layer, Structure aspect</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="7b619e8a" name="Dominio: Datos">
+      <child xsi:type="archimate:Note" id="044e0833" name="Note" textAlignment="1">
+        <bounds x="36" y="36" width="157" height="85"/>
+        <content>Dominio: Datos
+Intention is to hold Aplicación layer,  Información aspect</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="5f76e7d4" name="Dominio: Aplicación">
+      <child xsi:type="archimate:Note" id="743c2e89" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Dominio: Aplicación.
+Intention is to hold Aplicación layer, Behaviour and Structure aspects</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="0edf3624" name="Dominio: Infraestructura">
+      <child xsi:type="archimate:Note" id="02056490" name="Note" textAlignment="1">
+        <bounds x="12" y="12" width="169" height="97"/>
+        <content>Dominio: Infraestructura
+Intention is to hold Technology layer, all aspects</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="8a6d8951" name="_Dominios Archimate">
+      <child xsi:type="archimate:DiagramModelReference" id="b1677183" textAlignment="2" model="5f76e7d4">
+        <bounds x="425" y="248" width="273" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="c6d0e421" textAlignment="2" model="7b619e8a">
+        <bounds x="253" y="248" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="dab00a20" textAlignment="2" model="69aa2bf0">
+        <bounds x="253" y="148" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="48b810a9" textAlignment="2" model="0edf3624">
+        <bounds x="253" y="343" width="445" height="42"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="c3935616" textAlignment="2" model="7e78233d">
+        <bounds x="578" y="148" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="6250c96f" textAlignment="2" model="fe16ddc3">
+        <bounds x="433" y="174" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="4319e921" textAlignment="2" model="36ddb1fb">
+        <bounds x="397" y="136" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="ff19dabf" name="Note" textAlignment="1">
+        <bounds x="253" y="84" width="120" height="25"/>
+        <content>Información	</content>
+      </child>
+      <child xsi:type="archimate:Note" id="c40cb28b" name="Note" textAlignment="1">
+        <bounds x="253" y="24" width="445" height="37"/>
+        <content>Aspectos</content>
+      </child>
+      <child xsi:type="archimate:Note" id="90d34c57" name="Note" textAlignment="1">
+        <bounds x="409" y="84" width="120" height="25"/>
+        <content>Comportamiento
+</content>
+      </child>
+      <child xsi:type="archimate:Note" id="34607468" name="Note" textAlignment="1">
+        <bounds x="576" y="84" width="120" height="25"/>
+        <content>Estructura</content>
+      </child>
+      <child xsi:type="archimate:Note" id="177665d3" name="Note" textAlignment="1">
+        <bounds x="12" y="245" width="72" height="33"/>
+        <content>Capas</content>
+      </child>
+      <child xsi:type="archimate:Note" id="6f7e7876" name="Note" textAlignment="1">
+        <bounds x="115" y="148" width="103" height="27"/>
+        <content>Negocio</content>
+      </child>
+      <child xsi:type="archimate:Note" id="fb2dd8ce" name="Note" textAlignment="1">
+        <bounds x="115" y="248" width="103" height="27"/>
+        <content>Aplicación</content>
+      </child>
+      <child xsi:type="archimate:Note" id="4dfa1341" name="Note" textAlignment="1">
+        <bounds x="115" y="348" width="103" height="27"/>
+        <content>Tecnología</content>
+      </child>
+      <child xsi:type="archimate:Note" id="f3f0e032" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="181" height="73"/>
+        <content>Dominios de la Arquitectura empresarial</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000001" name="Punto de Vista: Introductorio">
+      <child xsi:type="archimate:Note" id="0000002" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Introductorio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000003" name="Punto de Vista: Organization">
+      <child xsi:type="archimate:Note" id="00000004" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Organización</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000005" name="Punto de Vista: Co-operación entre actores">
+      <child xsi:type="archimate:Note" id="00000006" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Co-operación entre Actores</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000007" name="Punto de Vista: Función de Negocio">
+      <child xsi:type="archimate:Note" id="00000008" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Funciones del Negocio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000009" name="Punto de Vista: Proceso de Negocio">
+      <child xsi:type="archimate:Note" id="00000010" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Procesos de Negocio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000011" name="Punto de Vista: Co-operación entre Procesos de Negocio">
+      <child xsi:type="archimate:Note" id="00000012" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Co-operación entre Procesos de Negocio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000013" name="Punto de Vista: Producto">
+      <child xsi:type="archimate:Note" id="00000014" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Producto</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000015" name="Punto de Vista: Comportamiento de la Aplicación">
+      <child xsi:type="archimate:Note" id="00000016" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Comportamiento de la Aplicación</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000017" name="Punto de Vista: Co-operación entre Aplicaciones">
+      <child xsi:type="archimate:Note" id="00000018" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Co-operación entre Aplicaciones</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000019" name="Punto de Vista: Estructura de la Aplicación">
+      <child xsi:type="archimate:Note" id="00000020" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Estructura de la Aplicación</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000021" name="Punto de Vista: Uso de la Aplicación">
+      <child xsi:type="archimate:Note" id="00000022" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Uso de la Aplicación</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000023" name="Punto de Vista: Infraestructura">
+      <child xsi:type="archimate:Note" id="00000024" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Infraestructura</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000025" name="Punto de Vista: Uso de Infraestructura">
+      <child xsi:type="archimate:Note" id="00000026" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Uso de Infraestructura</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000027" name="Punto de Vista: Implementación y Despliegue">
+      <child xsi:type="archimate:Note" id="00000028" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Implementación y Despliegue</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000029" name="Punto de Vista: Estructura de Información">
+      <child xsi:type="archimate:Note" id="00000030" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Estructura de Información</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000031" name="Punto de Vista: Realización de Servicio">
+      <child xsi:type="archimate:Note" id="00000032" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Realización del Servicio</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000033" name="Punto de Vista: Capas">
+      <child xsi:type="archimate:Note" id="00000034" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Capas</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="00000035" name="Punto de Vista: Panorámico">
+      <child xsi:type="archimate:Note" id="00000036" name="Note" textAlignment="1">
+        <bounds x="24" y="24" width="169" height="85"/>
+        <content>Punto de Vista: Panorámica</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="6c573bb1" name="_Vistas Archimate">
+      <child xsi:type="archimate:DiagramModelReference" id="99c040a4" textAlignment="2" model="00000027">
+        <bounds x="319" y="717" width="781" height="41"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="29787d44" textAlignment="2" model="00000031">
+        <bounds x="288" y="520" width="828" height="47"/>
+      </child>
+      <child xsi:type="archimate:Note" id="7666bf8f" name="Note" textAlignment="1">
+        <bounds x="60" y="12" width="397" height="325"/>
+        <content>http://www.opengroup.org/archimate/doc/ts_archimate/
+
+9.4     Puntos de vista básicos
+9.4.1       Introductorio
+9.4.2       Organización
+9.4.3       Co-operación entre actores
+9.4.4       Función de Negocio
+9.4.5       Proceso de Negocio
+9.4.6       Co-operación entre Procesos de Negocio
+9.4.7       Producto
+9.4.8       Comportamiento de la Aplicación
+9.4.9       Co - operación entre Aplicación
+9.4.10     Estructura de la Aplicación
+9.4.11     Uso de la Apliación
+9.4.12     Infraestructura
+9.4.13     Uso de la Infraestructura
+9.4.14     Implementación y Despliegue
+9.4.15     Estructura de Información
+9.4.16     Realización del Servicio
+9.4.17     Capas
+9.4.18     Panorámica </content>
+      </child>
+      <child xsi:type="archimate:Note" id="287fc109" name="Note" textAlignment="1">
+        <bounds x="303" y="402" width="120" height="25"/>
+        <content>Información	</content>
+      </child>
+      <child xsi:type="archimate:Note" id="894aa455" name="Note" textAlignment="1">
+        <bounds x="288" y="348" width="1033" height="37"/>
+        <content>Aspectos</content>
+      </child>
+      <child xsi:type="archimate:Note" id="487b925c" name="Note" textAlignment="1">
+        <bounds x="565" y="402" width="120" height="25"/>
+        <content>Comportamiento
+</content>
+      </child>
+      <child xsi:type="archimate:Note" id="b3fdffbf" name="Note" textAlignment="1">
+        <bounds x="936" y="402" width="120" height="25"/>
+        <content>Estructura</content>
+      </child>
+      <child xsi:type="archimate:Note" id="8bfaf94c" name="Note" textAlignment="1">
+        <bounds x="36" y="644" width="72" height="33"/>
+        <content>Capas</content>
+      </child>
+      <child xsi:type="archimate:Note" id="1b3d5a8b" name="Note" textAlignment="1">
+        <bounds x="128" y="512" width="103" height="27"/>
+        <content>Negocio
+</content>
+      </child>
+      <child xsi:type="archimate:Note" id="09fd2012" name="Note" textAlignment="1">
+        <bounds x="144" y="644" width="103" height="27"/>
+        <content>Aplicación</content>
+      </child>
+      <child xsi:type="archimate:Note" id="6030ee44" name="Note" textAlignment="1">
+        <bounds x="144" y="778" width="103" height="27"/>
+        <content>Tecnología</content>
+      </child>
+      <child xsi:type="archimate:Note" id="fbb2c9eb" name="Note" textAlignment="1">
+        <bounds x="59" y="348" width="169" height="49"/>
+        <content>Dominios de Arquitectura Empresarial
+</content>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="4a2ac651" textAlignment="2" model="00000005">
+        <bounds x="757" y="512" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="97f308cf" textAlignment="2" model="00000015">
+        <bounds x="327" y="633" width="766" height="38"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="f91d5f7b" textAlignment="2" model="00000017">
+        <bounds x="792" y="644" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="81c33428" textAlignment="2" model="00000019">
+        <bounds x="1008" y="690" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="ba4e3788" textAlignment="2" model="00000021">
+        <bounds x="817" y="552" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="f1a7d714" textAlignment="2" model="00000007">
+        <bounds x="745" y="444" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="928fafa4" textAlignment="2" model="00000009">
+        <bounds x="565" y="452" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="56ece2d9" textAlignment="2" model="00000011">
+        <bounds x="565" y="538" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="724b97a7" textAlignment="2" model="00000029">
+        <bounds x="300" y="458" width="73" height="395"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="d1177573" textAlignment="2" model="00000023">
+        <bounds x="757" y="764" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="c21778c6" textAlignment="2" model="00000025">
+        <bounds x="757" y="710" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="31a8c5f5" textAlignment="2" model="00000001">
+        <bounds x="96" y="409" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="4e95dcf0" textAlignment="2" model="00000035">
+        <bounds x="120" y="432" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="9baa76ee" textAlignment="2" model="00000033">
+        <bounds x="144" y="458" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="b2e9f0d1" textAlignment="2" model="00000003">
+        <bounds x="936" y="452" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="c62cdb46" textAlignment="2" model="00000013">
+        <bounds x="408" y="538" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="dd16db14" name="_Vistas Sistémicas">
+      <child xsi:type="archimate:Note" id="73e63b84" name="Note" textAlignment="1">
+        <bounds x="216" y="104" width="120" height="25"/>
+        <content>Información	</content>
+      </child>
+      <child xsi:type="archimate:Note" id="8a57cfa7" name="Note" textAlignment="1">
+        <bounds x="216" y="48" width="564" height="37"/>
+        <content>Aspectos</content>
+      </child>
+      <child xsi:type="archimate:Note" id="3dfc8199" name="Note" textAlignment="1">
+        <bounds x="429" y="104" width="120" height="25"/>
+        <content>Comportamiento</content>
+      </child>
+      <child xsi:type="archimate:Note" id="21808379" name="Note" textAlignment="1">
+        <bounds x="660" y="104" width="120" height="25"/>
+        <content>Estructura</content>
+      </child>
+      <child xsi:type="archimate:Note" id="eeb90284" name="Note" textAlignment="1">
+        <bounds x="32" y="269" width="53" height="24"/>
+        <content>Capas</content>
+      </child>
+      <child xsi:type="archimate:Note" id="003d4502" name="Note" textAlignment="1">
+        <bounds x="90" y="155" width="103" height="27"/>
+        <content>Negocio</content>
+      </child>
+      <child xsi:type="archimate:Note" id="389d7513" name="Note" textAlignment="1">
+        <bounds x="90" y="266" width="103" height="27"/>
+        <content>Aplicación</content>
+      </child>
+      <child xsi:type="archimate:Note" id="d2da35e9" name="Note" textAlignment="1">
+        <bounds x="90" y="368" width="103" height="27"/>
+        <content>Tecnología</content>
+      </child>
+      <child xsi:type="archimate:Note" id="320628fd" name="Note" textAlignment="1">
+        <bounds x="12" y="24" width="157" height="81"/>
+        <content>Dominios of Enterprise Architecture, Birds Eye view of some diagram types.
+</content>
+      </child>
+      <child xsi:type="archimate:Note" id="35ebf2b2" name="Note" textAlignment="1">
+        <bounds x="216" y="156" width="97" height="40"/>
+        <content>Neg/Inf</content>
+      </child>
+      <child xsi:type="archimate:Note" id="29da6d2b" name="Note" textAlignment="1">
+        <bounds x="429" y="156" width="97" height="40"/>
+        <content>Neg/Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="11644902" name="Note" textAlignment="1">
+        <bounds x="660" y="156" width="97" height="40"/>
+        <content>Neg/Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="e9a1a2b7" name="Note" textAlignment="1">
+        <bounds x="216" y="268" width="97" height="40"/>
+        <content>Apl/Inf</content>
+      </child>
+      <child xsi:type="archimate:Note" id="61a3ba93" name="Note" textAlignment="1">
+        <bounds x="429" y="269" width="97" height="40"/>
+        <content>Apl/Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="0de2809d" name="Note" textAlignment="1">
+        <bounds x="660" y="267" width="97" height="40"/>
+        <content>Apl/Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="f5791691" name="Note" textAlignment="1">
+        <bounds x="216" y="369" width="97" height="40"/>
+        <content>Tecn/Inf</content>
+      </child>
+      <child xsi:type="archimate:Note" id="7b10ab1f" name="Note" textAlignment="1">
+        <bounds x="429" y="369" width="97" height="40"/>
+        <content>Tecn/Com</content>
+      </child>
+      <child xsi:type="archimate:Note" id="9993a6db" name="Note" textAlignment="1">
+        <bounds x="660" y="369" width="97" height="40"/>
+        <content>Tecn/Struc</content>
+      </child>
+      <child xsi:type="archimate:Note" id="e5c2aa85" name="Note" textAlignment="1">
+        <bounds x="324" y="156" width="97" height="40"/>
+        <content>Neg/Inf+Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="9759c555" name="Note" textAlignment="1">
+        <bounds x="324" y="269" width="97" height="40"/>
+        <content>App/Inf+Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="f6719ea6" name="Note" textAlignment="1">
+        <bounds x="324" y="369" width="97" height="40"/>
+        <content>Tecn/Inf+Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="8d7d849f" name="Note" textAlignment="1">
+        <bounds x="540" y="156" width="97" height="40"/>
+        <content>Neg/Comp+Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="cc00b8c2" name="Note" textAlignment="1">
+        <bounds x="540" y="269" width="97" height="40"/>
+        <content>Apl/Comp+Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="4709a6ae" name="Note" textAlignment="1">
+        <bounds x="540" y="369" width="97" height="40"/>
+        <content>Tecn/Comp+Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="78eaad5c" name="Note" textAlignment="1">
+        <bounds x="216" y="204" width="97" height="40"/>
+        <content>Neg+Apl/Inf</content>
+      </child>
+      <child xsi:type="archimate:Note" id="cb473b9e" name="Note" textAlignment="1">
+        <bounds x="429" y="204" width="97" height="40"/>
+        <content>Neg+Apl/Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="54e17273" name="Note" textAlignment="1">
+        <bounds x="660" y="204" width="97" height="40"/>
+        <content>Neg+Apl/Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="1220b8c9" name="Note" textAlignment="1">
+        <bounds x="216" y="312" width="97" height="40"/>
+        <content>Apl+Tecn/Inf</content>
+      </child>
+      <child xsi:type="archimate:Note" id="b40d2eea" name="Note" textAlignment="1">
+        <bounds x="429" y="312" width="97" height="40"/>
+        <content>Apl+Tecn/Comp</content>
+      </child>
+      <child xsi:type="archimate:Note" id="62bee619" name="Note" textAlignment="1">
+        <bounds x="660" y="312" width="97" height="40"/>
+        <content>Apl+Tecn/Estr</content>
+      </child>
+      <child xsi:type="archimate:Note" id="5fff4c04" name="Note" textAlignment="1">
+        <bounds x="817" y="163" width="185" height="80"/>
+        <content>Estr+Inf?</content>
+      </child>
+    </element>
+  </folder>
+  <purpose>Contiene los diferentes puntos de vista desde los que se describe la arquitectura del sistema</purpose>
+</archimate:model>
