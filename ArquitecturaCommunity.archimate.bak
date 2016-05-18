@@ -4,7 +4,6 @@
     <folder name="Información" id="b75a940d"/>
     <folder name="Estructura" id="fc432e1c"/>
     <folder name="Comportamiento" id="c2cdd931"/>
-    <element xsi:type="archimate:BusinessActor" id="9a3d5649" name="Gerencia"/>
   </folder>
   <folder name="Aplicación" id="05c823c1" type="application">
     <folder name="Comportamiento" id="47f3256b"/>
@@ -58,9 +57,6 @@ Intention is to hold Business layer, Behaviour aspect, touching on Structure</co
         <bounds x="24" y="24" width="169" height="61"/>
         <content>Dominio: Organization
 Intention is to hold Business layer, Structure aspect</content>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="2021bb55" textAlignment="2" archimateElement="9a3d5649">
-        <bounds x="236" y="154" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="7b619e8a" name="Dominio: Datos">
